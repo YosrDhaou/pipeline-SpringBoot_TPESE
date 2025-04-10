@@ -18,7 +18,7 @@ run: mvn clean install -DskipTests=false
 -name: Archive JAR
 uses: actions/upload-artifact@v4
 with:
-name: spring-boot-app #
+name: spring-boot-app 
 path: target/*.jar
 -name: Print success message
 run: echo ""Build and tests completed successfully!"
